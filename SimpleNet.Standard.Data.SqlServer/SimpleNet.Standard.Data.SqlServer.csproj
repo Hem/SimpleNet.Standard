@@ -6,6 +6,8 @@
     <Authors>Hem Talreja</Authors>
     <Company>http://www.HemTalreja.com</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/Hem/SimpleNet.Standard</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Hem/SimpleNet.Standard.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

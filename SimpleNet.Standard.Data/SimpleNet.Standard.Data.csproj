@@ -5,7 +5,7 @@
     <Authors>Hem Talreja</Authors>
     <Company>http://www.HemTalreja.com</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <RepositoryUrl />
+    <RepositoryUrl>https://github.com/Hem/SimpleNet.Standard.git</RepositoryUrl>
     <PackageReleaseNotes />
     <PackageTags>ADO.NET DATA</PackageTags>
     <RepositoryType>git</RepositoryType>
@@ -13,6 +13,7 @@
     <RootNamespace>SimpleNet.Data</RootNamespace>
     <AssemblyName>SimpleNet.Standard.Data</AssemblyName>
     <Version>1.0.0</Version>
+    <PackageProjectUrl>https://github.com/Hem/SimpleNet.Standard</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
