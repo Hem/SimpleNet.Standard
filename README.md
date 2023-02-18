@@ -1,5 +1,5 @@
 # SimpleNet.Standard
-# SimpleNet.Core.Data
+
 
 SimpleNet.Standard.Data is a .NET Standard implementation of a DAL (Data Access Layer) with the hopes of simlifying execution of SQL Statements.
 
