@@ -10,7 +10,7 @@
     <AssemblyName>SimpleNet.Standard.Data.SqlServer</AssemblyName>
     <PackageProjectUrl>https://github.com/Hem/SimpleNet.Standard</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Hem/SimpleNet.Standard.git</RepositoryUrl>
-    <Version>2.0.0</Version>    
+    <Version>2.0.1</Version>    
   </PropertyGroup>
 
   <ItemGroup>
