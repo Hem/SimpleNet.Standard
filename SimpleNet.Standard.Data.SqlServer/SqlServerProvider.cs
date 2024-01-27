@@ -2,6 +2,7 @@
 using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
+using System.Threading.Tasks;
 
 namespace SimpleNet.Standard.Data.SqlServer
 {
@@ -38,6 +39,13 @@ namespace SimpleNet.Standard.Data.SqlServer
 		{
 			return new SqlParameter(name, value) { Direction = direction };
 		}
-	}
+
+        public async Task<DbConnection> GetConnectionAsync()
+        {
+            var conn = new SqlConnection(_connectionString);
+			await conn.OpenAsync();
+			return conn;
+        }
+    }
 
 }

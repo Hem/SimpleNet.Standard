@@ -70,7 +70,7 @@ namespace SimpleNet.Standard.Data.Repository
                                                         CommandType commandType,
                                                         DbParameter[] parameters  )
         {
-            using (var connection = DatabaseProvider.GetConnection())
+            using (var connection = await DatabaseProvider.GetConnectionAsync())
             {
                 return await ReadAsync(connection, mapper, commandText, commandType, parameters);
             }
@@ -216,7 +216,7 @@ namespace SimpleNet.Standard.Data.Repository
         /// <returns>The count of number of records affected.</returns>
         public async Task<int> ExecuteNonQueryAsync(string commandText, CommandType commandType, DbParameter[] parameters)
         {
-            using (var connection = DatabaseProvider.GetConnection())
+            using (var connection = await DatabaseProvider.GetConnectionAsync())
             {
                 return await ExecuteNonQueryAsync(connection, commandText, commandType, parameters);
             }
@@ -300,7 +300,7 @@ namespace SimpleNet.Standard.Data.Repository
         /// <returns>The first value returned</returns>
         public async Task<object> ExecuteScalarAsync(string commandText, CommandType commandType, DbParameter[] parameters)
         {
-            using (var connection = DatabaseProvider.GetConnection())
+            using (var connection = await DatabaseProvider.GetConnectionAsync())
             {
                 return await ExecuteScalarAsync(connection, commandText, commandType, parameters);
             }

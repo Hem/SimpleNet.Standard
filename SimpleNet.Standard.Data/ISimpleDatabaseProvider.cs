@@ -1,10 +1,14 @@
 ﻿using System.Data;
 using System.Data.Common;
+using System.Threading.Tasks;
 
 namespace SimpleNet.Standard.Data
 {
     public interface ISimpleDatabaseProvider
     {
+
+        Task<DbConnection> GetConnectionAsync();
+
         /// <summary>
         /// Returns a new database connection.
         /// </summary>
