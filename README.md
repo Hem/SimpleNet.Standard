@@ -14,8 +14,10 @@ An implementation of ISimpleDatabaseProvider for SQL Server databases.
      
   2. Create an instance of ISimpleDatabaseProvider ()
  
- ` var dbProvider = new SqlServerProvider("Your SQL server Connection String"); `
- ` var dbProvider - new PostgresSqlProvider("Your connection string") --- Yes! I know spelling error!!`
+ ` 
+ var dbProvider = new SqlServerProvider("Your SQL server Connection String");
+ var dbProvider = new PostgresSqlProvider("Your connection string"); --- Yes! I know spelling error!!
+ `
  
   3. Create an instance of ISimpleDataAccessLayer 
 
