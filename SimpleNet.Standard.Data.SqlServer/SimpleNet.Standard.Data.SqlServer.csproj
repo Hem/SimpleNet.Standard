@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <Description>MSSQL Connection Provider for SimpleNet.Standard.Data ADO.NET Data Access Layer Object Mapper for the .NET Framework, supports (.NET Core 2.0, .NET Standard 2.0  [PCL], .NET Framework 4.6)</Description>
     <Authors>Hem Talreja</Authors>
     <Company>http://www.HemTalreja.com</Company>
@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
   </ItemGroup>
 
   <ItemGroup>
