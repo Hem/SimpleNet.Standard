@@ -10,13 +10,13 @@
     <AssemblyName>SimpleNet.Standard.Data.SqlServer</AssemblyName>
     <PackageProjectUrl>https://github.com/Hem/SimpleNet.Standard</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Hem/SimpleNet.Standard.git</RepositoryUrl>
-    <Version>2.0.2</Version>
+    <Version>2.0.3</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>       
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
   </ItemGroup>
 
   <ItemGroup>

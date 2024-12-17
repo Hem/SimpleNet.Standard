@@ -41,8 +41,7 @@ public class PostgresSqlConnectionTest
         var mapper = MapBuilder<StateDto>
                                     .MapNoProperties()
                                     .MapByName(x=>x.Name)
-                                    .Map(x=>x.StateCode)
-                                    .ToColumn("st_code")
+                                    .Map(x=>x.StateCode).ToColumn("st_code")
                                     .Build();
 
         const string sql = @"select  st_code
